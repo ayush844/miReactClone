@@ -1,0 +1,15 @@
+.starProductSection{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 25px;
+}
+
+.starProductSection img{
+    transition: 0.5s;
+}
+
+.starProductSection img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.63);
+}

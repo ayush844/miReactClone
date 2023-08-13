@@ -1,0 +1,31 @@
+.productReviewCard{
+    margin: 0.5vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all 0.5s; 
+}
+
+
+.productReviewCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0 6px 15px rgba(53, 53, 53, 0.363) ;
+}
+
+.productReviewCard h5{
+    margin: 2vmax 0 0.5vmax 2vmax;
+    color: rgb(94, 94, 94);
+}
+
+.productReviewCard span{
+    color: rgb(94, 94, 94);
+    font-family: 'Tektur', cursive;
+    margin: 0 2vmax;
+    font-size: 1vmax;
+}
+
+.productReviewCard b{
+    color: orangered;
+    font-size: 1vmax;
+}
+
